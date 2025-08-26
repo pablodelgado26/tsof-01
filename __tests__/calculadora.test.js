@@ -1,4 +1,4 @@
-import { somar, subtrair } from '../src/calculadora.js';
+import { somar, subtrair, multiplicar } from '../src/calculadora.js';
 
 describe("Calculadora", () => {
     test("Deve somar dois números corretamente", () => {
@@ -24,5 +24,17 @@ describe("Calculadora", () => {
 
         // Assert (Verificar)
         expect(resultado).toBe(10);
+    });
+    test("Deve multiplicar dois números corretamente", () => {
+        //AAA
+        //Arrange (preparar)
+        const a = 4;
+        const b = 5;
+
+        // Act ( Executar)
+        const resultado = multiplicar(a, b);
+
+        // Assert (Verificar)
+        expect(resultado).toBe(20);
     });
 });
