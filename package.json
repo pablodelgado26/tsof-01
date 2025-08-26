@@ -1,0 +1,17 @@
+{
+  "name": "ts-01",
+  "version": "1.0.0",
+  "description": "Aula 01 tsof",
+  "keywords": [
+    "Senai",
+    "NodeJS",
+    "Tsof"
+  ],
+  "license": "MIT",
+  "author": "Pablo Delgado",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
